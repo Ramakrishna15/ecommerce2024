@@ -11,7 +11,7 @@ dotenv.config();
 connectDB();
 const app=express(); 
 app.get('/',(req,res)=>{
-    res.send("<h1>welcome to ecommerce app</h1>");
+    res.send("<h1>welcome to ecoznmmerce app</h1>");
 });
 app.use(morgan('dev'));
 app.use(express.json());
